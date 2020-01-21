@@ -1,0 +1,29 @@
+{
+  "name": "ioclearn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "step1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpileOnly app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infi000/iocLearn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infi000/iocLearn/issues"
+  },
+  "homepage": "https://github.com/infi000/iocLearn#readme",
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "inversify-koa-utils": "^1.0.0",
+    "koa-router": "^7.4.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^8.6.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
+  }
+}
