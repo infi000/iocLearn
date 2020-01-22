@@ -19,11 +19,21 @@
   "homepage": "https://github.com/infi000/iocLearn#readme",
   "dependencies": {
     "inversify": "^5.0.1",
+    "inversify-binding-decorators": "^4.0.0",
     "inversify-koa-utils": "^1.0.0",
     "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-swig": "^2.2.1",
+    "loadsh": "0.0.4",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^8.6.2",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "log4js": "^6.1.0"
   }
 }
